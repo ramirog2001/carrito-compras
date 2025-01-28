@@ -1,0 +1,48 @@
+body {
+    background-color: #efefef;
+}
+
+/* Sobreescribo colores de bootstrap button */
+.btn.btn-primary {
+    color: #fff;
+    background-color: #0288d1;
+    border-color: #0288d1;
+}
+
+.btn.btn-primary.focus,
+.btn.btn-primary:focus {
+    color: #fff;
+    background-color: #0288d1;
+    border-color: #0288d1;
+    outline: none;
+    box-shadow: none;
+}
+
+.btn.btn-primary:hover {
+    color: #fff;
+    background-color: #01669e;
+    border-color: #01669e;
+    outline: none;
+    box-shadow: none;
+}
+
+.btn.btn-primary.active,
+.btn.btn-primary:active {
+    color: #fff;
+    background-color: #00456b;
+    border-color: #00456b;
+    outline: none;
+}
+
+.btn.btn-primary.active.focus,
+.btn.btn-primary.active:focus,
+.btn.btn-primary.active:hover,
+.btn.btn-primary:active.focus,
+.btn.btn-primary:active:focus,
+.btn.btn-primary:active:hover {
+    color: #fff;
+    background-color: #00456b;
+    border-color: #00456b;
+    outline: none;
+    box-shadow: none;
+}

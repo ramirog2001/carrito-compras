@@ -1,0 +1,39 @@
+.table-delete-button {
+    background-color: #dc3545 !important;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.table-delete-button:hover {
+    background-color: #bb2d3b !important;
+}
+
+.table-delete-button:focus,
+.table-delete-button:active {
+    background-color: #b02a37 !important;
+}
+
+
+.table-modify-button {
+    background-color: #0288d1 !important;
+    color: white !important;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    cursor: pointer;
+}
+
+.table-modify-button:hover {
+    background-color: #01669e !important;
+}
+
+.table-modify-button:focus,
+.table-modify-button:active {
+    background-color: #00456b !important;
+}
+
+.table-image {
+    max-width: 5vw;
+}
